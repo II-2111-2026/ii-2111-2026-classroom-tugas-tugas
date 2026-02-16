@@ -1,0 +1,27 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Komputasi Probabiitas dan Statistika"
+  author: "Nama lengkap"
+  date: "2/16/2026"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - weeks/w01/quiz.qmd
+    - submissions/w01/laporan.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+
+
+
+

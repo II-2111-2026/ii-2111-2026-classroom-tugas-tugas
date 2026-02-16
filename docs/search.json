@@ -1,0 +1,192 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Komputasi Probabiitas dan Statistika",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w01/quiz.html",
+    "href": "weeks/w01/quiz.html",
+    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "section": "",
+    "text": "2.1 Start here",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w01/quiz.html#start-here",
+    "href": "weeks/w01/quiz.html#start-here",
+    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "section": "",
+    "text": "Implement your code in: submissions/w01/answers.py\nPush to GitHub → check Actions → check your score in Classroom.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w01/quiz.html#setup-import",
+    "href": "weeks/w01/quiz.html#setup-import",
+    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "section": "2.2 Setup import",
+    "text": "2.2 Setup import\n\nimport sys\nfrom pathlib import Path\n\ncwd = Path.cwd().resolve()\nrepo_root = cwd if (cwd / \"weeks\").exists() else cwd.parents[1]\nsys.path.insert(0, str(repo_root))\n\nfrom submissions.w01.answers import q01,q02,q03,q04,q05,q06,q07,q08,q09,q10,q11,q12",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w01/quiz.html#task-01-at-least-one-head",
+    "href": "weeks/w01/quiz.html#task-01-at-least-one-head",
+    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "section": "2.3 Task 01 — At least one head",
+    "text": "2.3 Task 01 — At least one head\nA fair coin is flipped 3 times. Return P(at least one head).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w01/quiz.html#task-02-combinations",
+    "href": "weeks/w01/quiz.html#task-02-combinations",
+    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "section": "2.4 Task 02 — Combinations",
+    "text": "2.4 Task 02 — Combinations\nFrom 10 students, choose 3 (order does not matter). Return the number of committees.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w01/quiz.html#task-03-conditional-probability",
+    "href": "weeks/w01/quiz.html#task-03-conditional-probability",
+    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "section": "2.5 Task 03 — Conditional probability",
+    "text": "2.5 Task 03 — Conditional probability\nIn a class of 40 students: - 22 use Python (P) - 18 use R (R) - 10 use both\nReturn P(Python | R).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w01/quiz.html#task-04-bayes",
+    "href": "weeks/w01/quiz.html#task-04-bayes",
+    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "section": "2.6 Task 04 — Bayes",
+    "text": "2.6 Task 04 — Bayes\nDisease prevalence P(D)=0.01, sensitivity P(+|D)=0.95, specificity P(-|not D)=0.90.\nReturn P(D | +).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w01/quiz.html#task-05-expected-value",
+    "href": "weeks/w01/quiz.html#task-05-expected-value",
+    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "section": "2.7 Task 05 — Expected value",
+    "text": "2.7 Task 05 — Expected value\nX in {0,1,2,3} with probs [0.1, 0.2, 0.3, 0.4]. Return E[X].",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w01/quiz.html#task-06-binomial-pmf",
+    "href": "weeks/w01/quiz.html#task-06-binomial-pmf",
+    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "section": "2.8 Task 06 — Binomial PMF",
+    "text": "2.8 Task 06 — Binomial PMF\nX ~ Binomial(n=4, p=0.3). Return [P(X=0),…,P(X=4)].",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w01/quiz.html#task-07-variance-of-a-fair-die",
+    "href": "weeks/w01/quiz.html#task-07-variance-of-a-fair-die",
+    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "section": "2.9 Task 07 — Variance of a fair die",
+    "text": "2.9 Task 07 — Variance of a fair die\nX is uniform over {1..6}. Return Var(X).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w01/quiz.html#task-08-correlation",
+    "href": "weeks/w01/quiz.html#task-08-correlation",
+    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "section": "2.10 Task 08 — Correlation",
+    "text": "2.10 Task 08 — Correlation\nCov(X,Y)=2, Var(X)=9, Var(Y)=16. Return Corr(X,Y).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w01/quiz.html#task-09-normal-probability",
+    "href": "weeks/w01/quiz.html#task-09-normal-probability",
+    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "section": "2.11 Task 09 — Normal probability",
+    "text": "2.11 Task 09 — Normal probability\nX ~ Normal(μ=10, σ=2). Return P(8 &lt; X &lt; 12).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w01/quiz.html#task-10-margin-of-error",
+    "href": "weeks/w01/quiz.html#task-10-margin-of-error",
+    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "section": "2.12 Task 10 — Margin of error",
+    "text": "2.12 Task 10 — Margin of error\nKnown σ=4, n=25, 95% z=1.96. Return margin of error.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w01/quiz.html#task-11-two-sided-p-value",
+    "href": "weeks/w01/quiz.html#task-11-two-sided-p-value",
+    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "section": "2.13 Task 11 — Two-sided p-value",
+    "text": "2.13 Task 11 — Two-sided p-value\nTwo-sided z-test with z=2.1. Return p-value.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+    ]
+  },
+  {
+    "objectID": "weeks/w01/quiz.html#task-12-monte-carlo-estimate",
+    "href": "weeks/w01/quiz.html#task-12-monte-carlo-estimate",
+    "title": "2  Quiz w01 — Sample Space & Basic Probability (12 tasks)",
+    "section": "2.14 Task 12 — Monte Carlo estimate",
+    "text": "2.14 Task 12 — Monte Carlo estimate\nEstimate P(Z &gt; 1.5), Z~N(0,1) using: - n=200000 - seed=123 Return estimated probability.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quiz w01 — Sample Space & Basic Probability (12 tasks)</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "4  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
